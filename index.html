@@ -4,17 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+  <!-- header -->
+  <div class="h-24 flex flex-wrap md:flex-nowrap md:gap-[300px] bg-gradient-to-r from-sky-400  ...">
+    <div>
+    <img src="./image/m-removebg-preview.png" class="h-[100px] w-[150px]" alt="">
+    </div>
+    <div class="md:visible invisible mt-6">
+    <a class="btn btn-ghost text-2xl">Home</a>
+    <a class="btn btn-ghost text-2xl">Portfolio</a>
+    <a class="btn btn-ghost text-2xl">About</a>
+    <a class="btn btn-ghost text-2xl">Service</a>
+    <a class="btn btn-ghost text-2xl">Contact</a>
+  </div>
+    <div class="rating md:mt-8 bottom-44 md:bottom-0 md:ml-0 ml-60 ">
+      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      <input
+        type="radio"
+        name="rating-2"
+        class="mask mask-star-2 bg-orange-400"
+        checked="checked" />
+      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    </div>
+  </div>
   <!-- hero area -->
   <section class="bg-[#253042] flex flex-wrap md:flex-nowrap !justify-between gap-[103px]">
     <div class="w-[559px] ml-[54px] mt-[225px]">
       <h1 class="md:text-[88px] text-[50px] font-light text-white">Consistent Sustainable Growth.</h1>
     </div>
     <div class="w-[724px] h-[736px] mt-[65px] relative"> 
-      <img src="./image/Card 1.png" class="absolute top-0 md:left-[217px] left-[190px] z-[2]" alt="">
+      <img src="./image/Card 1.png" class="absolute top-0 md:left-[217px] left-[211px] z-[2]" alt="">
       <img src="./image/Card 2.png" class="absolute top-[209px] left-0 z-10" alt="">
-      <img src="./image/BG.png" class="absolute bottom-[50px] md:left-[171px] left-[190px] z-[2]" alt="">
+      <img src="./image/BG.png" class="absolute bottom-[50px] md:left-[171px] left-[224px] z-[2]" alt="">
       <img src="./image/Intersect.png" class="absolute bottom-[30px] left-[181px]" alt="">
       <img src="./image/male-hand-holding-digital-transparent-rocket-icon-startup-business-concept-rocket-is-launching-soar-flying-concept-business-idea 1 1 (1).png" class="absolute right-0 bottom-0 w-[411px] h-[669px]
       mt-[132px]
@@ -96,8 +122,8 @@
               <img src="./image/Text 02.png" class="md:ml-[150px] ml-[50px] h-8" alt="">
               <button class="bg-black text-white md:ml-[155px] ml-[55px] mt-[25px] w-[140px] h-12 rounded-full drop-shadow-xl">Get Started</button>
           </div>
-          <div class="ml-16">
-          <div class="flex flex-wrap md:flex-nowrap justify-center mt-32 gap-10 mr-48">
+          <div class="md:ml-16">
+          <div class="flex flex-wrap md:flex-nowrap justify-center mt-32 gap-10 md:mr-48">
             <div class="bg-stone-50 w-[240px] h-[225px] drop-shadow-2xl rounded-lg">
               <img src="./image/Icon.png" class="h-9 mt-6 ml-8"  alt="">
               <h3 class="text-[#133063] font-bold text-xl mt-6 ml-8">Web Design</h3>
@@ -111,7 +137,7 @@
               <h5 class="text-[#133063] font-semibold mt-5 ml-8">LEARN MORE</h5>
             </div>
           </div>
-          <div class="flex flex-wrap md:flex-nowrap justify-center mt-10 gap-10 mr-48">
+          <div class="flex flex-wrap md:flex-nowrap justify-center mt-10 gap-10 md:mr-48">
             <div class="bg-white w-[240px] h-[225px] drop-shadow-xl rounded-lg">
               <img src="./image/Icon (2).png" class="h-9 mt-6 ml-8"  alt="">
               <h3 class="text-[#133063] font-bold text-xl mt-6 ml-8">Web Design</h3>
